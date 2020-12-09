@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>734</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="accessibleName">
+   <string/>
+  </property>
+  <property name="accessibleDescription">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Agregar</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>Particula</string>
+          </property>
+          <widget class="QLabel" name="label_8">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>210</y>
+             <width>22</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Rojo</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>23</y>
+             <width>16</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>ID</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_5">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>141</y>
+             <width>45</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Velocidad</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_10">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>270</y>
+             <width>20</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Azul</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_7">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>180</y>
+             <width>52</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Color (rgb)</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_6">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>117</y>
+             <width>60</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Destino en y</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>47</y>
+             <width>56</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Origen en x</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_9">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>240</y>
+             <width>28</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Verde</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_4">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>56</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Origen en y</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="agregar_inicio_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>310</y>
+             <width>307</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Agregar inicio</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_3">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>94</y>
+             <width>60</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Destino en x</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="agregar_final_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>339</y>
+             <width>307</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Agregar final</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="mostrar_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>363</y>
+             <width>307</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Mostrar</string>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="id_spinBox">
+           <property name="geometry">
+            <rect>
+             <x>76</x>
+             <y>23</y>
+             <width>241</width>
+             <height>18</height>
+            </rect>
+           </property>
+           <property name="showGroupSeparator" stdset="0">
+            <bool>false</bool>
+           </property>
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="origen_x_spinBox">
+           <property name="geometry">
+            <rect>
+             <x>76</x>
+             <y>47</y>
+             <width>241</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="origen_y_spinBox">
+           <property name="geometry">
+            <rect>
+             <x>76</x>
+             <y>70</y>
+             <width>241</width>
+             <height>18</height>
+            </rect>
+           </property>
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="destino_x_spinBox">
+           <property name="geometry">
+            <rect>
+             <x>76</x>
+             <y>94</y>
+             <width>241</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="destino_y_spinBox">
+           <property name="geometry">
+            <rect>
+             <x>76</x>
+             <y>117</y>
+             <width>241</width>
+             <height>18</height>
+            </rect>
+           </property>
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="velocidad_spinBox">
+           <property name="geometry">
+            <rect>
+             <x>76</x>
+             <y>141</y>
+             <width>241</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="maximum">
+            <number>500</number>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="rojo_spinBox">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>210</y>
+             <width>241</width>
+             <height>18</height>
+            </rect>
+           </property>
+           <property name="maximum">
+            <number>225</number>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="verde_spinBox">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>240</y>
+             <width>241</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="maximum">
+            <number>225</number>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="azul_spinBox">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>270</y>
+             <width>241</width>
+             <height>18</height>
+            </rect>
+           </property>
+           <property name="maximum">
+            <number>225</number>
+           </property>
+          </widget>
+          <widget class="QPlainTextEdit" name="plainTextEdit">
+           <property name="geometry">
+            <rect>
+             <x>340</x>
+             <y>20</y>
+             <width>311</width>
+             <height>361</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tabla</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="1" column="0">
+         <widget class="QSpinBox" name="buscar_spinBox">
+          <property name="statusTip">
+           <string/>
+          </property>
+          <property name="specialValueText">
+           <string>ID de la particula</string>
+          </property>
+          <property name="maximum">
+           <number>500</number>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="buscar_pushButton">
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="mostrar_tabla_pushButton">
+          <property name="text">
+           <string>Mostrar</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="3">
+         <widget class="QTableWidget" name="tabla">
+          <property name="midLineWidth">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Graficar</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0" colspan="2">
+         <widget class="QGraphicsView" name="graphicsView"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="dibujar">
+          <property name="text">
+           <string>Dibujar</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="limpiar">
+          <property name="text">
+           <string>Limpiar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>734</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionGuardar"/>
+   </widget>
+   <widget class="QMenu" name="menuOrdenar">
+    <property name="title">
+     <string>Ordenar</string>
+    </property>
+    <addaction name="actionOrdenar_por_ID"/>
+    <addaction name="actionOrdenar_por_velocidad"/>
+    <addaction name="actionOrdenar_por_distancia"/>
+   </widget>
+   <widget class="QMenu" name="menuCrear">
+    <property name="title">
+     <string>Crear</string>
+    </property>
+    <addaction name="actionGrafo"/>
+   </widget>
+   <widget class="QMenu" name="menuAlgoritmos">
+    <property name="title">
+     <string>Algoritmos</string>
+    </property>
+    <addaction name="actionBusqueda_profundidad_anchura"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuOrdenar"/>
+   <addaction name="menuCrear"/>
+   <addaction name="menuAlgoritmos"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbrir">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionOrdenar_por_ID">
+   <property name="text">
+    <string>Ordenar por ID</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionOrdenar_por_velocidad">
+   <property name="text">
+    <string>Ordenar por velocidad</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionOrdenar_por_distancia">
+   <property name="text">
+    <string>Ordenar por distancia</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionGrafo">
+   <property name="text">
+    <string>Grafo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionBusqueda_profundidad_anchura">
+   <property name="text">
+    <string>Busqueda profundidad/amplitud</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
